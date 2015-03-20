@@ -1,0 +1,176 @@
+/* Your Website Styles */
+h1{
+	color: #ABE3CD;
+	background: #629682;
+	border-radius: 15px;
+	margin: 30px 0 10px 0;
+	padding: 20px; 
+	font-family: 'Arvo', serif;
+	font-size: 2.8em;
+	text-align: center;
+	opacity: 0.75;
+	
+
+}
+body{
+	background: url("../img/tree_bark.png");
+}
+
+.me {
+	max-width: 100%;
+	border-radius: 30px;
+	padding: 0;
+	margin-top: 25px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #629682;
+	margin-top: -115px;
+}
+
+h2	{
+	color: #629682;
+	font-family: 'Arvo', serif;
+}
+
+p {
+	color: #965F53;
+	font-family: 'Arvo', serif;
+
+}
+
+
+
+blockquote	{
+	color: #965F53;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #965F53;
+	font-family: 'Arvo', serif;
+}
+
+.links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+
+}
+
+.links a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+	
+}
+
+.links li.github a {
+	background-image: url('../img/github.png');
+	
+}
+
+.links li.facebook a {
+	background-image: url('../img/facebook.png');
+
+}
+
+.links li.ewu a {
+	background-image: url('../img/ewu.png');
+
+}
+
+.links {
+  position: relative;
+  margin: -15px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.links li a {
+	display: inline;
+}
+
+
+.nav, 
+.nav li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #965F53;
+  font-family: 'Arvo', serif;
+}
+
+
+
+ul.image-set {
+  overflow: hidden;
+  margin: 20px;
+  padding: 0;
+  width: 700px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background 1s, border-color .5s .5s;
+  -webkit-transition: background 1s, border-color .5s .5s
+}
+
+
+ul.image-set:hover li {
+  width: 0%;
+  opacity: 0;
+  padding: 0
+}
+
+ul.image-set li {
+  float: left;
+  width: 25%;
+  padding: 1.5em;
+  transition: width .3s .5s, opacity .3s .5s, padding .3s .5s
+}
+
+ul.image-set li:hover {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  background: #965F53;
+}
+
+ul.image-set li img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.nav li{
+	margin-right: -15px;
+}
+
+.nav {
+	margin-left: -15px;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
